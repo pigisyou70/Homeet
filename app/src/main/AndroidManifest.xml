@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mainpage">
+
+    <!-- 允許使用網路權限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--允许访问网络状态的权限-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--允许访问 WIFI 状态的权限-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--取得精確位置-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--取得大約位置-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <service
+            android:name=".MyFirebaseService"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".EditObjectActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ShowMemberActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".DetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PublishListActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MatchActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".newHaveHouseActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".newRoommate_selActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".newNoHouseActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EditProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".postTypeSelect"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".newObjActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CalendarInfo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QueryCalendar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SetReservation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ReservationDate"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ReservationTime"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBM9wcrxsFBo6ba6NF2rxJfEanIZzs4uFg" />
+
+
+
+    </application>
+
+
+
+</manifest>
+
+
+

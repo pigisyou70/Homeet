@@ -1,0 +1,605 @@
+<resources>
+    <string name="app_name">Homeet</string>
+    <string name="title_search">搜尋</string>
+    <string name="title_favorite">收藏</string>
+    <string name="title_newObj">上傳</string>
+    <string name="title_message">訊息</string>
+    <string name="title_member">我的</string>
+
+    <string name="rationale_photo_picker">We require this permission to select photo from gallery and camera.</string>
+
+    <string name="status_title">選擇出租狀態</string>
+    <string-array name="spn_statusList">
+        <item>整層住家</item>
+        <item>獨立套房</item>
+        <item>分租套房</item>
+        <item>雅房</item>
+    </string-array>
+    <string name="type_title">選擇房屋型態</string>
+    <string-array name="spn_typeList">
+        <item>公寓</item>
+        <item>電梯大樓</item>
+        <item>透天厝</item>
+        <item>別墅</item>
+    </string-array>
+    <string name="deposit_title">選擇房屋型態</string>
+    <string-array name="spn_depositList">
+        <item>面談</item>
+        <item>一個月</item>
+        <item>兩個月</item>
+    </string-array>
+    <string-array name="spn_genderList">
+        <item>不限男女</item>
+        <item>限男性</item>
+        <item>限女性</item>
+    </string-array>
+
+
+    <string name="select_region_dialog_title">Spinner 對話視窗標題</string>
+    <string-array name="spn_list">
+    <item>男性</item>
+    <item>女性</item>
+    </string-array>
+    <string-array name="spn_housetypelist">
+        <item>不限</item>
+        <item>有房</item>
+        <item>無房</item>
+    </string-array>
+
+    <string name="TitleName">個人資料</string>
+    <string name="Title">說明</string>
+    <string name="Information">新進用戶為了保障雙方的權益，需要填寫完整資料，才可以使用此APP喔!敬請見諒</string>
+    <string name="Name">姓名</string>
+    <string name="Gender">性別</string>
+    <string name="Age">年齡</string>
+    <string name="Phone">電話</string>
+    <string name="mAge_hint">年齡</string>
+    <string name="desc">大頭貼</string>
+    <string name="msg_token_fmt">測試推播功能</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_ll">Sign in</string>
+    <string name="Picture">圖片</string>
+    <string name="RentType">出租方式*</string>
+    <string name="HouseType">房屋型態*</string>
+    <string name="SelectCourty">選擇縣市*</string>
+    <string name="Address">地址*</string>
+    <string name="inputAddress">請輸入地址</string>
+    <string name="Price">租金*</string>
+    <string name="inputPrice">請輸入租金</string>
+    <string name="priceInclude">租金包含</string>
+    <string name="Manager">管理費</string>
+    <string name="Internet">網路費</string>
+    <string name="Water">水費</string>
+    <string name="Interesting">興趣</string>
+    <string name="Self_introduction">自我介紹</string>
+
+    <string-array name="county_search">
+        <item>不限</item>
+        <item>基隆市</item>
+        <item>台北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>新竹市</item>
+        <item>新竹縣</item>
+        <item>苗栗縣</item>
+        <item>台中市</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>嘉義市</item>
+        <item>嘉義縣</item>
+        <item>台南市</item>
+        <item>高雄市</item>
+        <item>屏東縣</item>
+        <item>台東縣</item>
+        <item>花蓮縣</item>
+        <item>宜蘭縣</item>
+        <item>澎湖縣</item>
+        <item>金門縣</item>
+        <item>連江縣</item>
+    </string-array>
+
+    <string-array name="price_search">
+        <item>不限</item>
+        <item>5000元以下</item>
+        <item>5000-10000元</item>
+        <item>10000-15000元</item>
+        <item>15000-20000元</item>
+        <item>20000元以上</item>
+    </string-array>
+    <string-array name="size_search">
+        <item>不限</item>
+        <item>10坪以下</item>
+        <item>10-20坪</item>
+        <item>20-30坪</item>
+        <item>30-40坪</item>
+        <item>40-50坪</item>
+        <item>50坪以上</item>
+    </string-array>
+    <string-array name="sorting_search">
+        <item>刊登時間優先</item>
+        <item>租金從高到低</item>
+        <item>租金從低到高</item>
+        <item>坪數從大到小</item>
+        <item>坪數從小到大</item>
+    </string-array>
+    <string-array name="sorting_search2">
+        <item>刊登時間優先</item>
+        <item>租金從高到低</item>
+        <item>租金從低到高</item>
+    </string-array>
+    <string-array name="taipei_search">
+        <item>不限</item>
+        <item>中正區</item>
+        <item>大同區</item>
+        <item>中山區</item>
+        <item>松山區</item>
+        <item>大安區</item>
+        <item>萬華區</item>
+        <item>信義區</item>
+        <item>士林區</item>
+        <item>北投區</item>
+        <item>內湖區</item>
+        <item>南港區</item>
+        <item>文山區</item>
+    </string-array>
+
+    <string-array name="newtaipei_search">
+        <item>不限</item>
+        <item>萬里區</item>
+        <item>金山區</item>
+        <item>板橋區</item>
+        <item>汐止區</item>
+        <item>深坑區</item>
+        <item>石碇區</item>
+        <item>瑞芳區</item>
+        <item>平溪區</item>
+        <item>雙溪區</item>
+        <item>貢寮區</item>
+        <item>新店區</item>
+        <item>坪林區</item>
+        <item>烏來區</item>
+        <item>永和區</item>
+        <item>中和區</item>
+        <item>土城區</item>
+        <item>三峽區</item>
+        <item>樹林區</item>
+        <item>鶯歌區</item>
+        <item>三重區</item>
+        <item>新莊區</item>
+        <item>泰山區</item>
+        <item>林口區</item>
+        <item>蘆洲區</item>
+        <item>五股區</item>
+        <item>八里區</item>
+        <item>淡水區</item>
+        <item>三芝區</item>
+        <item>石門區</item>
+    </string-array>
+
+    <string-array name="keelung_search">
+        <item>不限</item>
+        <item>仁愛區</item>
+        <item>中正區</item>
+        <item>信義區</item>
+        <item>中山區</item>
+        <item>安樂區</item>
+        <item>七堵區</item>
+        <item>暖暖區</item>
+    </string-array>
+
+    <string-array name="taoyuang_search">
+        <item>不限</item>
+        <item>桃園區</item>
+        <item>中壢區</item>
+        <item>平鎮區</item>
+        <item>八德區</item>
+        <item>楊梅區</item>
+        <item>蘆竹區</item>
+        <item>大溪區</item>
+        <item>龍潭區</item>
+        <item>龜山區</item>
+        <item>大園區</item>
+        <item>觀音區</item>
+        <item>新屋區</item>
+        <item>復興區</item>
+    </string-array>
+
+    <string-array name="Hsinchu1_search">
+        <item>不限</item>
+        <item>東區</item>
+        <item>北區</item>
+        <item>香山區</item>
+    </string-array>
+
+    <string-array name="Hsinchu2_search">
+        <item>不限</item>
+        <item>竹北市</item>
+        <item>竹東鎮</item>
+        <item>新埔鎮</item>
+        <item>關西鎮</item>
+        <item>新豐鄉</item>
+        <item>峨眉鄉</item>
+        <item>寶山鄉</item>
+        <item>五峰鄉</item>
+        <item>橫山鄉</item>
+        <item>北埔鄉</item>
+        <item>尖石鄉</item>
+        <item>芎林鄉</item>
+        <item>湖口鄉</item>
+    </string-array>
+
+    <string-array name="Miaoli_search">
+        <item>不限</item>
+        <item>苗栗市</item>
+        <item>頭份市</item>
+        <item>苑裡鎮</item>
+        <item>通霄鎮</item>
+        <item>竹南鎮</item>
+        <item>後龍鎮</item>
+        <item>卓蘭鎮</item>
+        <item>大湖鄉</item>
+        <item>公館鄉</item>
+        <item>銅鑼鄉</item>
+        <item>南庄鄉</item>
+        <item>頭屋鄉</item>
+        <item>三義鄉</item>
+        <item>西湖鄉</item>
+        <item>造橋鄉</item>
+        <item>三灣鄉</item>
+        <item>獅潭鄉</item>
+        <item>泰安鄉</item>
+    </string-array>
+
+    <string-array name="Taichung_search">
+        <item>不限</item>
+        <item>中區</item>
+        <item>東區</item>
+        <item>南區</item>
+        <item>西區</item>
+        <item>北區</item>
+        <item>北屯區</item>
+        <item>西屯區</item>
+        <item>南屯區</item>
+        <item>太平區</item>
+        <item>大里區</item>
+        <item>霧峰區</item>
+        <item>烏日區</item>
+        <item>豐原區</item>
+        <item>后里區</item>
+        <item>石岡區</item>
+        <item>東勢區</item>
+        <item>和平區</item>
+        <item>新社區</item>
+        <item>潭子區</item>
+        <item>大雅區</item>
+        <item>神岡區</item>
+        <item>大肚區</item>
+        <item>沙鹿區</item>
+        <item>龍井區</item>
+        <item>梧棲區</item>
+        <item>清水區</item>
+        <item>大甲區</item>
+        <item>外埔區</item>
+        <item>大安區</item>
+    </string-array>
+
+    <string-array name="Changhua_search">
+        <item>不限</item>
+        <item>彰化市</item>
+        <item>員林市</item>
+        <item>鹿港鎮</item>
+        <item>和美鎮</item>
+        <item>北斗鎮</item>
+        <item>溪湖鎮</item>
+        <item>田中鎮</item>
+        <item>二林鎮</item>
+        <item>線西鄉</item>
+        <item>伸港鄉</item>
+        <item>福興鄉</item>
+        <item>秀水鄉</item>
+        <item>花壇鄉</item>
+        <item>芬園鄉</item>
+        <item>大村鄉</item>
+        <item>埔鹽鄉</item>
+        <item>埔心鄉</item>
+        <item>永靖鄉</item>
+        <item>社頭鄉</item>
+        <item>二水鄉</item>
+        <item>田尾鄉</item>
+        <item>埤頭鄉</item>
+        <item>芳苑鄉</item>
+        <item>大城鄉</item>
+        <item>竹塘鄉</item>
+        <item>溪州鄉</item>
+    </string-array>
+
+    <string-array name="Nantou_search">
+        <item>不限</item>
+        <item>南投市	</item>
+        <item>埔里鎮	</item>
+        <item>草屯鎮	</item>
+        <item>竹山鎮	</item>
+        <item>集集鎮	</item>
+        <item>名間鄉	</item>
+        <item>鹿谷鄉	</item>
+        <item>中寮鄉	</item>
+        <item>魚池鄉	</item>
+        <item>國姓鄉	</item>
+        <item>水里鄉	</item>
+        <item>信義鄉	</item>
+        <item>仁愛鄉	</item>
+    </string-array>
+
+    <string-array name="Yunlin_search">
+        <item>不限</item>
+        <item>斗六市	</item>
+        <item>斗南鎮	</item>
+        <item>虎尾鎮	</item>
+        <item>西螺鎮	</item>
+        <item>土庫鎮	</item>
+        <item>北港鎮	</item>
+        <item>古坑鄉	</item>
+        <item>大埤鄉	</item>
+        <item>莿桐鄉	</item>
+        <item>林內鄉	</item>
+        <item>二崙鄉	</item>
+        <item>崙背鄉	</item>
+        <item>麥寮鄉	</item>
+        <item>東勢鄉	</item>
+        <item>褒忠鄉	</item>
+        <item>臺西鄉	</item>
+        <item>元長鄉	</item>
+        <item>四湖鄉	</item>
+        <item>口湖鄉	</item>
+        <item>水林鄉	</item>
+    </string-array>
+
+    <string-array name="Chiayi1_search">
+        <item>不限</item>
+        <item>東區</item>
+        <item>西區</item>
+    </string-array>
+
+    <string-array name="Chiayi2_search">
+        <item>不限</item>
+        <item>太保市	</item>
+        <item>朴子市	</item>
+        <item>布袋鎮	</item>
+        <item>大林鎮	</item>
+        <item>民雄鄉	</item>
+        <item>溪口鄉	</item>
+        <item>新港鄉	</item>
+        <item>六腳鄉	</item>
+        <item>東石鄉	</item>
+        <item>義竹鄉	</item>
+        <item>鹿草鄉	</item>
+        <item>水上鄉	</item>
+        <item>中埔鄉	</item>
+        <item>竹崎鄉	</item>
+        <item>梅山鄉	</item>
+        <item>番路鄉	</item>
+        <item>大埔鄉	</item>
+        <item>阿里山鄉</item>
+    </string-array>
+
+    <string-array name="Tainan_search">
+        <item>不限</item>
+        <item>東區</item>
+        <item>南區</item>
+        <item>北區</item>
+        <item>安南區	</item>
+        <item>安平區	</item>
+        <item>中西區	</item>
+        <item>新營區	</item>
+        <item>鹽水區	</item>
+        <item>白河區	</item>
+        <item>柳營區	</item>
+        <item>後壁區	</item>
+        <item>東山區	</item>
+        <item>麻豆區	</item>
+        <item>下營區	</item>
+        <item>六甲區	</item>
+        <item>官田區	</item>
+        <item>大內區	</item>
+        <item>佳里區	</item>
+        <item>學甲區	</item>
+        <item>西港區	</item>
+        <item>七股區	</item>
+        <item>將軍區	</item>
+        <item>北門區	</item>
+        <item>新化區	</item>
+        <item>善化區	</item>
+        <item>新市區	</item>
+        <item>安定區	</item>
+        <item>山上區	</item>
+        <item>玉井區	</item>
+        <item>楠西區	</item>
+        <item>南化區	</item>
+        <item>左鎮區	</item>
+        <item>仁德區	</item>
+        <item>歸仁區	</item>
+        <item>關廟區	</item>
+        <item>龍崎區	</item>
+        <item>永康區	</item>
+    </string-array>
+
+    <string-array name="Kaohsiung_search">
+        <item>不限</item>
+        <item>鹽埕區</item>
+        <item>鼓山區</item>
+        <item>左營區</item>
+        <item>楠梓區</item>
+        <item>三民區</item>
+        <item>新興區</item>
+        <item>前金區</item>
+        <item>苓雅區</item>
+        <item>旗津區</item>
+        <item>小港區</item>
+        <item>鳳山區</item>
+        <item>林園區</item>
+        <item>大寮區</item>
+        <item>大樹區</item>
+        <item>大社區</item>
+        <item>仁武區</item>
+        <item>鳥松區</item>
+        <item>岡山區</item>
+        <item>橋頭區</item>
+        <item>燕巢區</item>
+        <item>田寮區</item>
+        <item>阿蓮區</item>
+        <item>路竹區</item>
+        <item>湖內區</item>
+        <item>茄萣區</item>
+        <item>永安區</item>
+        <item>彌陀區</item>
+        <item>梓官區</item>
+        <item>旗山區</item>
+        <item>美濃區</item>
+        <item>六龜區</item>
+        <item>甲仙區</item>
+        <item>杉林區</item>
+        <item>內門區</item>
+        <item>茂林區</item>
+        <item>桃源區</item>
+        <item>那瑪夏區</item>
+    </string-array>
+
+    <string-array name="Pingtung_search">
+        <item>不限</item>
+        <item>屏東市</item>
+        <item>潮州鎮</item>
+        <item>東港鎮</item>
+        <item>恆春鎮</item>
+        <item>萬丹鄉</item>
+        <item>長治鄉</item>
+        <item>麟洛鄉</item>
+        <item>九如鄉</item>
+        <item>里港鄉</item>
+        <item>鹽埔鄉</item>
+        <item>高樹鄉</item>
+        <item>萬巒鄉</item>
+        <item>內埔鄉</item>
+        <item>竹田鄉</item>
+        <item>新埤鄉</item>
+        <item>枋寮鄉</item>
+        <item>新園鄉</item>
+        <item>崁頂鄉</item>
+        <item>林邊鄉</item>
+        <item>南州鄉</item>
+        <item>佳冬鄉</item>
+        <item>琉球鄉</item>
+        <item>車城鄉</item>
+        <item>滿州鄉</item>
+        <item>枋山鄉</item>
+        <item>三地門鄉</item>
+        <item>霧臺鄉</item>
+        <item>瑪家鄉</item>
+        <item>泰武鄉</item>
+        <item>來義鄉</item>
+        <item>春日鄉</item>
+        <item>獅子鄉</item>
+        <item>牡丹鄉</item>
+    </string-array>
+
+    <string-array name="Taitang_search">
+        <item>不限</item>
+        <item>臺東市</item>
+        <item>成功鎮</item>
+        <item>關山鎮</item>
+        <item>卑南鄉</item>
+        <item>大武鄉</item>
+        <item>太麻里鄉</item>
+        <item>東河鄉</item>
+        <item>長濱鄉</item>
+        <item>鹿野鄉</item>
+        <item>池上鄉</item>
+        <item>綠島鄉</item>
+        <item>延平鄉</item>
+        <item>海端鄉</item>
+        <item>達仁鄉</item>
+        <item>金峰鄉</item>
+        <item>蘭嶼鄉</item>
+    </string-array>
+    <string-array name="Hoalian_search">
+        <item>不限</item>
+        <item>花蓮市</item>
+        <item>鳳林鎮</item>
+        <item>玉里鎮</item>
+        <item>新城鄉</item>
+        <item>吉安鄉</item>
+        <item>壽豐鄉</item>
+        <item>光復鄉</item>
+        <item>豐濱鄉</item>
+        <item>瑞穗鄉</item>
+        <item>富里鄉</item>
+        <item>秀林鄉</item>
+        <item>萬榮鄉</item>
+        <item>卓溪鄉</item>
+    </string-array>
+    <string-array name="Ilan_search">
+        <item>不限</item>
+        <item>宜蘭市</item>
+        <item>羅東鎮</item>
+        <item>蘇澳鎮</item>
+        <item>頭城鎮</item>
+        <item>礁溪鄉</item>
+        <item>壯圍鄉</item>
+        <item>員山鄉</item>
+        <item>冬山鄉</item>
+        <item>五結鄉</item>
+        <item>三星鄉</item>
+        <item>大同鄉</item>
+        <item>南澳鄉</item>
+    </string-array>
+
+
+    <string-array name="Wuhu_search">
+        <item>不限</item>
+        <item>馬公市</item>
+        <item>湖西鄉</item>
+        <item>白沙鄉</item>
+        <item>西嶼鄉</item>
+        <item>望安鄉</item>
+        <item>七美鄉</item>
+    </string-array>
+
+
+    <string-array name="Jinmen_search">
+        <item>不限</item>
+        <item>金城鎮</item>
+        <item>金湖鎮</item>
+        <item>金沙鎮</item>
+        <item>金寧鄉</item>
+        <item>烈嶼鄉</item>
+        <item>烏坵鄉</item>
+    </string-array>
+
+    <string-array name="Lianjiang_search">
+        <item>不限</item>
+        <item>南竿鄉</item>
+        <item>北竿鄉</item>
+        <item>莒光鄉</item>
+        <item>東引鄉</item>
+    </string-array>
+
+
+    <string-array name="DetailList">
+        <item>檢視</item>
+        <item>編輯</item>
+        <item>刪除</item>
+    </string-array>
+
+
+</resources>

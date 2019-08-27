@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/lText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:maxEms="12"
+            android:text="別人的訊息"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lText"
+            android:layout_alignParentEnd="false"
+            android:text="別人的訊息時間"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/lRequestText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="lReqiestText"
+            android:maxEms="12"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lRequestTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lRequestText"
+            android:layout_alignParentEnd="false"
+            android:text="lReqiestTime"
+            android:textAlignment="textStart" />
+
+
+        <TextView
+            android:id="@+id/rText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:maxEms="12"
+            android:text="自己的訊息"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rText"
+            android:layout_alignEnd="@id/rText"
+            android:layout_alignParentEnd="false"
+            android:text="自己的訊息時間"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/rRequestText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="rRequestText"
+            android:maxEms="12"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/rRequestTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rRequestText"
+            android:layout_alignEnd="@id/rRequestText"
+            android:layout_alignParentEnd="false"
+            android:text="rRequestTime"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/rReadStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rTime"
+            android:layout_alignParentEnd="true"
+            android:text="自己已讀狀態" />
+
+
+    </RelativeLayout>
+</LinearLayout>

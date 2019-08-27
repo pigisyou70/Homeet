@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "564986778950",
+    "firebase_url": "https://homeet2.firebaseio.com",
+    "project_id": "homeet2",
+    "storage_bucket": "homeet2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564986778950:android:871e4a264dad7c8a",
+        "android_client_info": {
+          "package_name": "com.example.mainpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564986778950-oa824pn9sjpihmsvgto26emvdr0t20d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mainpage",
+            "certificate_hash": "f3081ce4e20daf2e44c2acf1c3051e7d003cd83d"
+          }
+        },
+        {
+          "client_id": "564986778950-v5m4ib9nl1kc7rnm18ppr4euknrk2v8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mainpage",
+            "certificate_hash": "ddef3459fb1bec9c8db2732e219b6071d55e1bd7"
+          }
+        },
+        {
+          "client_id": "564986778950-il999mitimiq7d2u200fa3lo6qsc35v7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwlGnjVT4mxrKfywy7U9sywTwhVxl1h10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564986778950-il999mitimiq7d2u200fa3lo6qsc35v7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

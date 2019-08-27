@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/colorLightGray"
+    tools:context=".Fragment_map">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/search_theme">
+                <EditText
+                    android:id="@+id/SearchView"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:ems="10"
+                    android:background="@null"
+                    android:textColor="@color/colorDarkGray"
+                    android:hint="請輸入關鍵字" />
+                <ImageButton
+                    android:id="@+id/SearchButton"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/fui_transparent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:src="@drawable/icon_search_click" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/search_theme">
+
+                <Button
+                    android:id="@+id/ListButton"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_list"
+                    android:textColor="@drawable/btn_listmap_textcolor"
+                    android:textSize="18dp"
+                    android:text="列表" />
+                <Button
+                    android:id="@+id/MapButton"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_map"
+                    android:textColor="@drawable/btn_listmap_textcolor"
+                    android:text="地圖"
+                    android:textSize="18dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:dropDownWidth="400dp"
+                android:id="@+id/countySpinner"
+                android:background="@android:color/transparent">
+
+            </Spinner>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:dropDownWidth="400dp"
+                android:id="@+id/dictSpinner"
+                android:background="@android:color/transparent">
+
+            </Spinner>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:dropDownWidth="400dp"
+                android:id="@+id/typeSpinner"
+                android:background="@android:color/transparent"
+                >
+
+            </Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:dropDownWidth="400dp"
+                android:id="@+id/sizeSpinner"
+                android:background="@android:color/transparent"
+                ></Spinner>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:dropDownWidth="400dp"
+                android:id="@+id/priceSpinner"
+                android:background="@android:color/transparent">
+
+            </Spinner>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:dropDownWidth="400dp"
+                android:entries="@array/sorting_search"
+                android:id="@+id/sortingSpinner"
+                android:background="@android:color/transparent"
+                ></Spinner>
+        </LinearLayout>
+        <fragment
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mapview"
+            />
+    </LinearLayout>
+
+</FrameLayout>
